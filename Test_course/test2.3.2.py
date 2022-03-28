@@ -23,6 +23,7 @@ try:
     button = browser.find_element_by_css_selector("button.btn")
     button.click()
 
+
 finally:
-    time.sleep(999)
+    time.sleep(5)
     browser.quit()
